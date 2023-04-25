@@ -25,14 +25,21 @@
         </Grid.RowDefinitions>
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="4" Stroke="White" VerticalAlignment="Top" Width="388" Margin="0,39.667,0,0" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="-12,-2,0,0" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize=" 40" Width="400" TextAlignment=" Center" FontFamily="Monospac821 BT" Grid.RowSpan="2" Text="General Informtion"/>
-        <Button Content="My recipes" Background="White" BorderBrush="White" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="72,50.667,75,0" Grid.Row="5" Height="67" Grid.RowSpan="2" Width="241">
+        <Button Content="My recipes" Background="White" BorderBrush="White" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="72,50.667,75,0" Grid.Row="5" Height="67" Grid.RowSpan="2" Width="241" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="30"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Review"  Background="White" BorderBrush="White" Foreground="Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="72,0,75,0" Grid.Row="8" Height="67" Grid.RowSpan="2" Width="241">
+        <Button Content="Review"  Background="White" BorderBrush="White" Foreground="Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="72,0,75,0" Grid.Row="8" Height="67" Grid.RowSpan="2" Width="241" Click="Button_Click_1">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Main Menu" BorderBrush="White" Background="White" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Monospac821 BT" Margin="72,0.333,75,0" Grid.Row="12" Height="70" Width="241" Grid.RowSpan="2">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="30"/>

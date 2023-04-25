@@ -23,5 +23,26 @@ namespace WpfApp9
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            My_Recipes myrecipes = new My_Recipes();
+            myrecipes.Show();
+            this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Review review = new Review();
+            review.Show();
+            this.Close();
+        }
+
+        private void Submit_Click(object sender, RoutedEventArgs e)
+        {
+            TypeOfRecipes mainmenu = new TypeOfRecipes();
+            mainmenu.Show();
+            this.Close();
+        }
     }
 }

@@ -24,9 +24,39 @@ namespace WpfApp9
             InitializeComponent();
         }
 
-        private void Submit_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
+            RecipeOne recipeone = new RecipeOne();
+            recipeone.Show();
+            this.Close();
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            RecipeTwo recipetwo = new RecipeTwo();
+            recipetwo.Show();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            RecipeThree recipethree = new RecipeThree();
+            recipethree.Show();
+            this.Close();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            RecipeFour recipefour = new RecipeFour();
+            recipefour.Show();
+            this.Close();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            General_Info info = new General_Info();
+            info.Show();
+            this.Close();
         }
     }
 }
