@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="General Info.xaml.cs">
+      <DependentUpon>General Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Recipes.xaml.cs">
+      <DependentUpon>My Recipes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RecipeFour.xaml.cs">
       <DependentUpon>RecipeFour.xaml</DependentUpon>
     </Compile>
@@ -67,12 +73,19 @@
     <Compile Include="RecipeTwo.xaml.cs">
       <DependentUpon>RecipeTwo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Review.xaml.cs">
+      <DependentUpon>Review.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.xaml.cs">
       <DependentUpon>SignUp.xaml</DependentUpon>
     </Compile>
     <Compile Include="TypeOfRecipes.xaml.cs">
       <DependentUpon>TypeOfRecipes.xaml</DependentUpon>
     </Compile>
+    <Page Include="General Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LogIn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -92,6 +105,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="My Recipes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RecipeFour.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -105,6 +122,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RecipeTwo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Review.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

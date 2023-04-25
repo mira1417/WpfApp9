@@ -15,16 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApp9
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for General_Info.xaml
     /// </summary>
-    public partial class LogIn : Window
+    public partial class General_Info : Window
     {
-        public LogIn()
+        public General_Info()
         {
             InitializeComponent();
-        }
-        private void Submit_Click(object sender, RoutedEventArgs e)
-        {
         }
     }
 }
