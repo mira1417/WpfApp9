@@ -23,5 +23,8 @@ namespace WpfApp9
         {
             InitializeComponent();
         }
+        private void Submit_Click(object sender, RoutedEventArgs e)
+        {
+            SqlConnection SqlCon = new SqlConnection 
     }
 }
